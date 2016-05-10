@@ -1,0 +1,35 @@
+﻿Kompilacja rozpoczęła się 2014-06-23 01:22:45.
+     1>Projekt „C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\game\game.vcxproj” w węźle 2 (elementy docelowe: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Libraries\SFML20\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp
+         Engine.cpp
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(28): warning C4101: "ex" : lokalna zmienna, do której nie istnieje odwołanie
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(59): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(301): warning C4305: "argument" : obcięcie z "double" do "float"
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(307): warning C4305: "argument" : obcięcie z "double" do "float"
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(309): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(332): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+     1>c:\users\hp\documents\visual studio 2012\projects\gra_proj\game\engine.cpp(352): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\Debug\GRA.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Libraries\SFML20\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-main-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\Debug\GRA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\Debug\GRA.lib" /MACHINE:X86 Debug\Bomb.obj
+         Debug\Character.obj
+         Debug\Diamond.obj
+         Debug\Enemy.obj
+         Debug\EnemyFly.obj
+         Debug\EnemySlime.obj
+         Debug\EnemySnail.obj
+         Debug\Engine.obj
+         Debug\Flag.obj
+         Debug\Game.obj
+         Debug\Heart.obj
+         Debug\HUD.obj
+         Debug\Item.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\Player.obj
+         game.vcxproj -> C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\Debug\GRA.exe
+     1>Kompilowanie projektu „C:\Users\hp\Documents\Visual Studio 2012\Projects\GRA_PROJ\game\game.vcxproj” wykonane (elementy docelowe: Build).
+
+Kompilacja powiodła się.
+
+Czas, który upłynął: 00:00:04.08
